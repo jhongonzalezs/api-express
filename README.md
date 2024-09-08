@@ -31,7 +31,7 @@ Clonar el Repositorio
 Una vez que tengas las herramientas instaladas, clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/jhongonzalezs/api-express.git
 cd tu-repositorio
 ```
 
@@ -41,7 +41,9 @@ En el directorio raíz del proyecto (donde se encuentra el archivo package.json)
 
 ```bash
 npm install
-npm start
+npm install express 
+npm install swagger-jsdoc swagger-ui-express
+node index.js
 ```
 
 
