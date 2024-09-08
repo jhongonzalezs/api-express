@@ -32,7 +32,7 @@ Una vez que tengas las herramientas instaladas, clona el repositorio:
 
 ```bash
 git clone https://github.com/jhongonzalezs/api-express.git
-cd tu-repositorio
+cd api-express
 ```
 
 Instalación de Dependencias
@@ -41,10 +41,10 @@ En el directorio raíz del proyecto (donde se encuentra el archivo package.json)
 
 ```bash
 npm install
-npm install express 
-npm install swagger-jsdoc swagger-ui-express
 node index.js
 ```
+
+Puedes abrir tu navegador e ir a http://localhost:3000 para verificar que el servidor esté corriendo.
 
 
 
